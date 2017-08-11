@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico|Bitter|Orbitron|Righteous|Exo|Mogra|Tangerine|Acme|OpenSans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {box-sizing: border-box;}
+a {text-decoration: none; color: navy;}
+i {color: navy;}
+body {margin: 0 auto; padding: 1vw; background-image: url("https://www.redtailbooks.com/codeCamp/images/DNA2.jpg"); background-repeat: no-repeat; background-size: 100%;}
+.header {}
+@media (min-width: 500px) {
+  .header {display: flex; justify-content: space-between;}
+}
+.pic {order: 1; flex-basis: 20%;
+  img {border: .7vw solid navy; border-radius: 10px; width: 100%; max-width: 60vw; text-align: center;}
+}
+.title {order: 2; flex-basis: 79%; text-align: center;}
+hr {border-radius: 5px; width: 80%; color: #990000; background-color: #990000; height: .7vw;}
+h1 {font-family: Pacifico, sans-serif; color: black; font-size: 2.8vw;}
+h2 {font-family: Bitter, sans-serif; color: navy; font-size: 1.5vw;}
+p {font-size: 1.5vw;}
+.footer {position: fixed; bottom: 5px; width: 100%; height: auto; margin-top: 40px; text-align: center; font-family: Acme, sans-serif;  font-size: calc(40% + .5vw);}
